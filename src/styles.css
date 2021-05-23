@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Spartan", sans-serif;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Spartan", sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 90%);
+}
+
+.container {
+  width: 30%;
+  height: 500px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  color: black;
+}
+
+.calculator {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.screen {
+  width: 100%;
+  height: 20%;
+  background-color: hsl(0, 0%, 93%);
+  border-radius: 5px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.screen > span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btns-container {
+  width: 100%;
+  height: 70%;
+  background-color: hsl(0, 5%, 81%);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+}
+
+.btn-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  flex-grow: 1;
+  border: none;
+  background-color: hsl(45, 7%, 89%);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  border-bottom: 3px solid hsl(35, 11%, 61%);
+}
+
+.btn-primary {
+  background-color: hsl(185, 42%, 37%);
+  border-bottom: 3px solid hsl(185, 58%, 25%);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: hsl(25, 98%, 40%);
+  border-bottom: 3px solid hsl(25, 99%, 27%);
+  color: white;
+}
